@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Ondřej Ivanko">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h3>Uživatelský formulář</h3>
+    <form action="" method="POST">{% csrf_token %}
+        <label for="jméno">Celé jméno</label><br>  
+        <input id="jméno" type="text" name="jméno"><br>
+        <label for="email">Email</label><br>
+        <input id="email" type="email" name="email"><br>
+        <label for="ičo">IČO</label><br>
+        <input id="ičo" type="text" name="ičo"><br>
+        <input type="submit" value="Submit">    
+    </form>
+</body>

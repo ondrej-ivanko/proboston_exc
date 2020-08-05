@@ -1,0 +1,7 @@
+django==3.0.9
+ares-util==0.2.0
+python-dotenv==0.14.0
+
+# linters, tests
+pylint==2.5.3
+black==19.10b0
