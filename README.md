@@ -60,3 +60,10 @@ $ ./manage.py runserver {you can add port number after, by default its 8000}
 ```
 
 Than visit http://127.0.0.1:8000 in your browser
+
+To be able to use admin browsable API create a new super user with command:
+
+```sh
+$ ./manage.py createsuperuser
+```
+After that you can visit http://127.0.0.1:8000/admin/ for admin interface
